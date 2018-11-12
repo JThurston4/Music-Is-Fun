@@ -30,7 +30,7 @@ function drawSongs(results) {
           <h5 class="card-title">${!newTitle ? '' : newTitle.substring(0, 20)} </h5>
           <p class="card-text">${!newArtist ? '' : newArtist.substring(0, 20)}</p> 
           <p>$${!newPrice ? '' : newPrice}</p>
-          <p>${!newCollection ? '' : newCollection.substring(0, 20)}</p>
+          <p>${!newCollection ? '' : newCollection.substring(0, 25)}</p>
           <div class="d-flex justify-content-center">
             <audio controls style="width: 18vw;">
               <source src="${song.preview}" type="audio/mpeg">
